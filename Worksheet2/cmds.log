@@ -1,0 +1,213 @@
+    1  ls
+    2  ssh
+    3  zsh
+    4  clear
+    5  ls -la
+    6  exit
+    7  cd root
+    8  exit
+    9  ls
+   10  ls -la
+   11  df -k
+   12  clear
+   13  root
+   14  clear
+   15  ls
+   16  ls -la
+   17  cd root
+   18  cd
+   19  ls
+   20  clear
+   21  bash
+   22  clear
+   23  exit
+   24  wget www.github.com
+   25  history > cmds.log
+   26  vim cmds.log 
+   27  clear
+   28  git status
+   29  cd ../
+   30  ls
+   31  git
+   32  clear
+   33  git status
+   34  git remote add origin https://github.com/ManasC478/cs131.git
+   35  git remote -v
+   36  clear
+   37  git status
+   38  touch .gitignore
+   39  vim .git
+   40  vim .gitignore 
+   41  git status
+   42  vim .gitignore
+   43  git status
+   44  git add worksheet1
+   45  git add Worksheet1/
+   46  clear
+   47  cat Worksheet1/cmds.log 
+   48  clear
+   49  git branch
+   50  git branch main
+   51  git branch master
+   52  git branch -M main
+   53  git branc
+   54  git branch
+   55  git status
+   56  git branch -M master
+   57  git branch
+   58  git commit
+   59  git remote -v
+   60  git config --global user.email manas.chougule@gmail.com
+   61  git config --global user.name ManasC478
+   62  git commit
+   63  clear
+   64  git status
+   65  git branch
+   66  git branch -r
+   67  git checkout main
+   68  git checkout -b main
+   69  git status
+   70  git branch
+   71  git branch -d master
+   72  git branch
+   73  clear
+   74  ls
+   75  clear
+   76  git push
+   77  git push --set-upstream origin main
+   78  vim .git
+   79  cd .git
+   80  ls
+   81  cd HEAD 
+   82  vim HEAD 
+   83  vim config 
+   84  cat refs
+   85  cd refs
+   86  ls
+   87  cd ../
+   88  vim config 
+   89  git config --global user.email "manas.chougule@gmail.com"
+   90  git config --global user.name "ManasC478"
+   91  git push
+   92  git push --set-upstream origin main
+   93  vim config 
+   94  git push --set-upstream origin main
+   95  clear
+   96  git remote -v
+   97  exit
+   98  passwd
+   99  wget www.github.com
+  100  ls
+  101  ls -la
+  102  clear
+  103  cat index.html 
+  104  clear
+  105  history
+  106  $echo $SHELL
+  107  exit
+  108  ls
+  109  cd Worksheet1/
+  110  ls
+  111  cd ..
+  112  clear
+  113  git remote -v
+  114  clear
+  115  wget
+  116  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/spotify-2023.csv
+  117  ls
+  118  clear
+  119  head spotify-2023.csv 
+  120  clear
+  121  vim spotify-2023.csv 
+  122  tail
+  123  man tail
+  124  clear
+  125  nano spotify-2023.csv 
+  126  clear
+  127  nano spotify-2023.csv 
+  128  vim s
+  129  ls
+  130  vim spotify-2023.csv 
+  131  clear
+  132  vim spotify-2023.csv 
+  133  clear
+  134  vim spotify-2023.csv 
+  135  exit
+  136  ls
+  137  clear
+  138  ls
+  139  clear
+  140  vi test.txt
+  141  ls
+  142  clear
+  143  wc spotify-2023.csv 
+  144  man wc\
+  145  man wc
+  146  clear
+  147  rep 'Drake' spotify-2023.csv 
+  148  grep 'Drake' spotify-2023.csv 
+  149  clear
+  150  ls
+  151  grep taylor spotify-2023.csv >> taylor.txt
+  152  ls
+  153  cat taylor.txt 
+  154  grep taylor spotify-2023.csv 
+  155  grep 'Taylor' spotify-2023.csv 
+  156  grep 'Taylor' spotify-2023.csv >> taylor.txt
+  157  ls
+  158  cat taylor.txt 
+  159  clear
+  160  grep 'Drake' spotify-2023.csv >> drake.txt
+  161  cat drake.txt 
+  162  clear
+  163  wc -i taylor.txt 
+  164  wc taylor.txt 
+  165  wc drake.txt 
+  166  clear
+  167  ls
+  168  clear
+  169  echo $SHELL
+  170  clear
+  171  ls
+  172  whoami
+  173  su - anyone
+  174  su - ashish
+  175  clear
+  176  cd Worksheet2
+  177  vim Global\ YouTube\ Statistics.csv 
+  178  sort Global\ YouTube\ Statistics.csv 
+  179  :q
+  180  clear
+  181  vim Global\ YouTube\ Statistics.csv 
+  182  grep --help
+  183  clear
+  184  grep -i 'United States' Global\ YouTube\ Statistics.csv 
+  185  clear
+  186  grep -i 'music' Global\ YouTube\ Statistics.csv 
+  187  clear
+  188  wc Global\ YouTube\ Statistics.csv 
+  189  wc --help
+  190  wc --bytes Global\ YouTube\ Statistics.csv 
+  191  wc --chars Global\ YouTube\ Statistics.csv 
+  192  wc --words Global\ YouTube\ Statistics.csv 
+  193  wc --lines Global\ YouTube\ Statistics.csv 
+  194  wc --l Global\ YouTube\ Statistics.csv 
+  195  clear
+  196  grep -i 'Music' Global\ YouTube\ Statistics.csv | wc -l -w
+  197  grep -i "Music" Global\ YouTube\ Statistics.csv > music.txt
+  198  ls
+  199  wc -l -w music.txt 
+  200  grep -i "Music" Global\ YouTube\ Statistics.csv >> music.txt
+  201  wc -l -w music.txt 
+  202  grep -i "Music" Global\ YouTube\ Statistics.csv > music.txt
+  203  wc -l -w music.txt 
+  204  rm music.txt 
+  205  lcear
+  206  clear
+  207  grep -i 'music' Global\ YouTube\ Statistics.csv | wc -l -w > counts.txt
+  208  ls
+  209  cat counts.txt 
+  210  vim counts.txt 
+  211  cat counts.txt 
+  212  history
+  213  history > cmds.log
