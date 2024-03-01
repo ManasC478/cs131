@@ -1,0 +1,68 @@
+    1  clear
+    2  (QUESTION 1) mkdir Assignment1
+    3  cd Assignment1/
+    4  touch Assignment1.txt
+    5  ls
+    6  (QUESTION 2) echo $SHELL >> Assignment1.txt 
+    7  cat Assignment1.txt 
+    8  (QUESTION 2) echo $HOME >> Assignment1.txt 
+    9  ls -l
+   10  (QUESTION 3) ls -l >> Assignment1.txt 
+   11  (QUESTION 4) mkdir myDir
+   12  ls -l
+   13  man chown
+   14  chown --help
+   15  clear
+   16  (QUESTION 4) chmod -w myDir/
+   17  ls
+   18  cd myDir/
+   19  ls
+   20  cd ../
+   21  ls -l
+   22  cd myDir/
+   23  touch random.txt
+   24  cd ../
+   25  cd myDir/
+   26  ls >> ../Assignment1.txt 
+   27  ls -l
+   28  touch random.txt >> ../Assignment1.txt 
+   29  cd ../
+   30  ls -l >> Assignment1.txt 
+   31  (QUESTION 5) mkdir myDir2
+   32  (QUESTION 5) mkdir myDir3
+   33  (QUESTION 6) touch myDir2/myFile.txt
+   34  ls myDir2
+   35  ls myDir2 >> Assignment1.txt 
+   36  (QUESTION 6) mv myDir2/myFile.txt myDir3
+   37  ls myDir3
+   38  ls myDir3 >> Assignment1.txt 
+   39  free -m
+   40  (QUESTION 6) free -m >> Assignment1.txt 
+   41  cd ../../../../
+   42  ls
+   43  cd ../
+   44  ls
+   45  cd etc/
+   46  ls
+   47  ls | grep release
+   48  cd mnt
+   49  cd ../mnt/
+   50  ls
+   51  cd scratch/
+   52  ls
+   53  cd
+   54  ls
+   55  cd Assignment1/
+   56  pwd
+   57  cd ../../../../../etc/
+   58  (QUESTION 9) cat os-release 
+   59  cat os-release >> /mnt/scratch/FA23_CS131_Ashish/manassp24/Assignment1/Assignment1.txt 
+   60  ls -l | grep os-release
+   61  (QUESTION 10) ls -l os-release 
+   62  ls -l os-release >> /mnt/scratch/FA23_CS131_Ashish/manassp24/Assignment1/Assignment1.txt 
+   63  cd
+   64  cd Assignment1/
+   65  vim Assignment1.txt 
+   66  clear
+   67  ls
+   68  history > cmds.log
