@@ -1,0 +1,47 @@
+  412  find /etc -type f > one.txt 2> two.txt (QUESTION 1 COMMAND)
+  420  cat one.txt >> Assignment2.txt
+  421  cat two.txt >> Assignment2.txt 
+  429  echo $USER
+  430  ps
+  439  ps aux
+  440  clear
+  441  ps aux -u $USER
+  448  ps aux -u manassp24
+  449  clear
+  450  ps aux | grep manassp24
+  451  ps -u manassp24
+  452  ps -u $USER (QUESTION 3 COMMAND)
+  453  ps aux -u $USER
+  454  clear
+  455  ps -u $USER
+  456  ps -u $USER >> Assignment2.txt 
+  457  vim Assignment2.txt 
+  458  cd Assignment2
+  459  clear
+  460  vim Assignment2.txt 
+  467  clear
+  484  cut -d "," -f 20-21 Global\ YouTube\ Statistics.csv
+  485  clear
+  486  cut -d "," -f 20-21 Global\ YouTube\ Statistics.csv | uniq -c
+  487  cut -d "," -f 20-21 Global\ YouTube\ Statistics.csv | uniq -c | sort -k 2
+  488  cut -d "," -f 20-21 Global\ YouTube\ Statistics.csv | uniq -c | sort -r
+  489  vim file.txt
+  490  vi file.txt
+  491  vim file.txt
+  492  cut -d "," -f 20-21 Global\ YouTube\ Statistics.csv | uniq -c | sort -r | head -1 (QUESTION 2 COMMAND)
+  494  ps -u $USER (QUESTION 4 COMMAND)
+  495  clear
+  496  ps -u $USER
+  497  ps -aux | grep init
+  498  clear
+  499  ps -aux | grep init
+  500  ps -aux | grep systemd
+  501  ps aux
+  502  clear
+  506  clear
+  509  ps -aux | grep systemd | head -1 (QUESTION 5 COMMAND)
+  510  cd Assignment2
+  511  vim Assignment2.txt 
+  519  cat Assignment2.txt 
+  520  clear
+  521  history > cmds.log
