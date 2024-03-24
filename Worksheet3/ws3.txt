@@ -1,0 +1,13 @@
+Task 1: Command in cmds.log is command 675
+Earnings Country 	Youtuber
+--------------------------------------
+2000000	 United Kingdom	Woody & Kleiny
+9000000	 India		T-Series
+9200000	 United States	DaFuq!?Boom!
+
+Task 2: Command in cmds.log is command 677
+Subscribers Category       Youtuber
+-----------------------------------------------------
+96000000    Sports	   WWE
+166000000   Entertainment  MrBeast
+162000000   Education	   Cocomelon - Nursery Rhymes

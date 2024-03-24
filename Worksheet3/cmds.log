@@ -1,0 +1,44 @@
+  636  cut -d "," -f 2,8,16 Global\ YouTube\ Statistics.csv | awk --field-separator ',' '/(India|United States|United Kingdom)/ {print $3 "\t" $2 "\t" $1}' | cut -d "\t" -f 2 | uniq
+  637  cut -d "," -f 2,8,16 Global\ YouTube\ Statistics.csv | awk --field-separator ',' '/(India|United States|United Kingdom)/ {print $3 "\t" $2 "\t" $1}' | cut -d "\t" -f 2
+  638  cut -d "," -f 2,8,16 Global\ YouTube\ Statistics.csv | awk --field-separator ',' '/(India|United States|United Kingdom)/ {print $3 "\t" $2 "\t" $1}' | cut -f 2
+  639  cut -d "," -f 2,8,16 Global\ YouTube\ Statistics.csv | awk --field-separator ',' '/(India|United States|United Kingdom)/ {print $3 "\t" $2 "\t" $1}' | cut -f 2 | uniq
+  640  cut -d "," -f 2,8,16 Global\ YouTube\ Statistics.csv | awk --field-separator ',' '/(India|United States|United Kingdom)/ {print $3 "\t" $2 "\t" $1}' | cut -f 2 | uniq -c
+  641  cut -d "," -f 2,8,16 Global\ YouTube\ Statistics.csv | awk --field-separator ',' '/(India|United States|United Kingdom)/ {print $3 "\t" $2 "\t" $1}' | cut -f 2
+  642  cut -d "," -f 2,8,16 Global\ YouTube\ Statistics.csv | awk --field-separator ',' '/(India|United States|United Kingdom)/ {print $3 "\t" $2 "\t" $1}' | cut -f 2 | uniq -c
+  643  vim s.txt
+  644  uniq -c s.txt 
+  645  rm s.txt 
+  646  clera
+  647  clear
+  648  cut -d "," -f 2,8,16 Global\ YouTube\ Statistics.csv | awk --field-separator ',' '/(India|United States|United Kingdom)/ {print $3 "\t" $2 "\t" $1}' | sort -k 2
+  649  cut -d "," -f 2,8,16 Global\ YouTube\ Statistics.csv | awk --field-separator ',' '/(India|United States|United Kingdom)/ {print $3 "\t" $2 "\t" $1}' | cut -f 2 | sort -k 2 | uniq -c
+  650  cut -d "," -f 2,8,16 Global\ YouTube\ Statistics.csv | awk --field-separator ',' '/('India'|'United States'|'United Kingdom')/ {print $3 "\t" $2 "\t" $1}' | cut -f 2 | sort -k 2 | uniq -c
+  651  cut -d "," -f 2,8,16 Global\ YouTube\ Statistics.csv | awk --field-separator ',' '/("India"|"United States"|"United Kingdom")/ {print $3 "\t" $2 "\t" $1}' | cut -f 2 | sort -k 2 | uniq -c
+  652  clear
+  653  cut -d "," -f 2,8,16 Global\ YouTube\ Statistics.csv | awk --field-separator ',' '/(India|United States|United Kingdom)/ {print $3 "\t" $2 "\t" $1}' | cut -f 2 | sort -k 2 | uniq -c
+  654  cut -d "," -f 2,8,16 Global\ YouTube\ Statistics.csv | awk --field-separator ',' '/India|United States|United Kingdom/ {print $3 "\t" $2 "\t" $1}' | cut -f 2 | sort -k 2 | uniq -c
+  655* cut -d "," -f 2,8,16 Global\ YouTube\ Statistics.csv | awk --field-separator ',' '/India|United States|United Kingdom/ {print $3 "\t" $2 "\t" $1}' | 
+  656  cut -d "," -f 2,8,16 Global\ YouTube\ Statistics.csv | awk --field-separator ',' '/India|United States|United Kingdom/ {print $3 "\t" $2 "\t" $1}' | sort -k 2 
+  657  vim Global\ YouTube\ Statistics.csv 
+  658  clear
+  659* echo cut -d "," -f 2,8,16 Global\ YouTube\ Statistics.csv | awk --field-separator ',' '$2 ~ /India|United States|United Kingdom/ {print $3 "\t" $2 "\t" $1}' > 
+  660  cut -d "," -f 2,8,16 Global\ YouTube\ Statistics.csv | awk --field-separator ',' '$2 ~ /India|United States|United Kingdom/ {print $3 "\t" $2 "\t" $1}' | sort -k 2 | cut -f 2 | uniq -c
+  661  clear
+  662  ls
+  663* echo cut -d "," -f 2,8,16 Global\ YouTube\ Statistics.csv | awk --field-separator ',' '$2 ~ /India|United States|United Kingdom/ {print $3 "\t" $2 "\t" $1}' > q1.t
+  664  vim q1.txt 
+  665  echo "cut -d "," -f 2,8,16 Global\ YouTube\ Statistics.csv | awk --field-separator ',' '$2 ~ /India|United States|United Kingdom/ {print $3 "\t" $2 "\t" $1}'" > q1.txt 
+  666  vim q1.txt 
+  667  rm q1.txt 
+  668  cut -d "," -f 2,8,16 Global\ YouTube\ Statistics.csv | awk --field-separator ',' '$2 ~ /India|United States|United Kingdom/ {print $3 "\t" $2 "\t" $1}'
+  669  clear
+  670  cut -d "," -f 2,8,16 Global\ YouTube\ Statistics.csv | awk --field-separator ',' '$2 ~ /India|United States|United Kingdom/ {print $3 "\t" $2 "\t" $1}' | awk 'BEGIN {if (max[$2] < $1) {max[$2]=$1; line[$2]=$0}} END{for (i in max) print line[i]}'
+  671  cut -d "," -f 2,8,16 Global\ YouTube\ Statistics.csv | awk --field-separator ',' '$2 ~ /India|United States|United Kingdom/ {print $3 "\t" $2 "\t" $1}' | awk -F '\t' 'BEGIN {if (max[$2] < $1) {max[$2]=$1; line[$2]=$0}} END{for (i in max) print line[i]}'
+  672  cut -d "," -f 2,8,16 Global\ YouTube\ Statistics.csv | awk --field-separator ',' '$2 ~ /India|United States|United Kingdom/ {print $3 "\t" $2 "\t" $1}' | awk -F '\t' '{if (max[$2] < $1) {max[$2]=$1; line[$2]=$0}} END{for (i in max) print line[i]}'
+  673  vim Global\ YouTube\ Statistics.csv 
+  674  cut -d "," -f 2,3,5 Global\ YouTube\ Statistics.csv | awk --field-separator ',' '$3 ~ /Sports|Education|Entertainment/ {print $2 "\t" $3 "\t" $1}' | awk -F '\t' '{if (max[$2] < $1) {max[$2]=$1; line[$2]=$0}} END{for (i in max) print line[i]}'
+  675  cut -d "," -f 2,8,16 Global\ YouTube\ Statistics.csv | awk --field-separator ',' '$2 ~ /India|United States|United Kingdom/ {print $3 "\t" $2 "\t" $1}' | awk -F '\t' '{if (max[$2] < $1) {max[$2]=$1; line[$2]=$0}} END{for (i in max) print line[i]}' > ws3.txt (****TASK 1 COMMAND****)
+  676  cat ws3.txt 
+  677  cut -d "," -f 2,3,5 Global\ YouTube\ Statistics.csv | awk --field-separator ',' '$3 ~ /Sports|Education|Entertainment/ {print $2 "\t" $3 "\t" $1}' | awk -F '\t' '{if (max[$2] < $1) {max[$2]=$1; line[$2]=$0}} END{for (i in max) print line[i]}' >> ws3.txt (****TASK 2 COMMAND****)
+  678  cat ws3.txt 
+  679  history > cmds.log
