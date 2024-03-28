@@ -1,0 +1,2 @@
+India sub mean: 2.56583e+07
+United States sub mean: 2.34169e+07
