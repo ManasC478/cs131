@@ -1,0 +1,38 @@
+  999  wc -l last.fake > Assignment3.txt (****TASK 1 COMMAND****)
+ 1000  grep sp24 last.fake >> lastsp24.fake (****TASK 1 COMMAND****)
+ 1001  wc -l lastsp24.fake >> Assignment3.txt (****TASK 1 COMMAND****)
+
+ 1008  clear
+
+ 1025  grep Sun lastsp24.fake | sort | cut -d " " -f 1 | uniq
+ 1027  grep Sun lastsp24.fake | sort | cut -d " " -f 1 | uniq | awk '{print "The list of people who worked on Sunday are:"} {print} END {for (i in list) print i; print "Kudos to these people for putting in the work"}' 
+ 1029  clear
+ 1030  grep Sun lastsp24.fake | sort | cut -d " " -f 1 | uniq | awk 'BEGIN {print "The list of people who worked on Sunday are:"} {print} END {for (i in list) print i; print "Kudos to these people for putting in the work"}' >> Assignment3.txt (****TASK 2 COMMAND****)
+
+ 1055  clear
+ 
+1056  awk '/(23|00|01|02|03|04):.. - (23|00|01|02|03|04):../ {print}' lastsp24.fake > random.txt
+ 1057  vim random.txt 
+ 1070  awk '/((23|00|01|02|03):[0-9][0-9]|04:00) - ((23|00|01|02|03):[0-9][0-9]|04:00)/ {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {print "Night Owls List:"} {print} END {print "Night Owls are dope. Please ensure you get enough sleep though."}' >> Assignment3.txt (****TASK 3 COMMAND****)
+
+ 1071  awk '/((05|06|07|08):[0-9][0-9]|09:00) - ((05|06|07|08):[0-9][0-9]|09:00)/ {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {print "Early Birds List:"} {print} END {print "Early Birds are dope. Please ensure you get enough sleep though."}' >> Assignment3.txt (****TASK 4 COMMAND****)
+
+ 1072  clear
+
+ 1073  vim lastsp24.fake 
+ 1074  awk '/^t*/ {print $1}' lastsp24.fake 
+ 1076  clear
+ 1077  awk '/^t/ {print $1}' lastsp24.fake | sort | uniq
+ 1078  awk '/^t/ {print $1}' lastsp24.fake | sort | uniq >> Assignment3.txt (****TASK 5 COMMAND****)
+
+ 1079  vim passwd.fake 
+ 1080  clear
+ 1084  awk -F ':' '$1~/^a/ && $3%2==0 {print $1}' passwd.fake 
+ 1085  awk -F ':' '$1~/^a/ && $3%2==0 {print $1}' passwd.fake >> Assignment3.txt (****TASK 6 COMMAND****)
+
+ 1086  clear
+ 1087  vim passwd.fake 
+ 1088  clear
+ 1089  sed 's/[[:alnum:] ]//g' passwd.fake | sort -u
+ 1090  sed 's/[[:alnum:] ]//g' passwd.fake | sort -u >> Assignment3.txt (****TASK 7 COMMAND****)
+ 1091  history > cmds.log
