@@ -1,0 +1,39 @@
+  992  bash script.sh Global\ YouTube\ Statistics.csv 
+  999  clear
+ 1000  cd Worksheet5
+ 1001  bash script.sh Global\ YouTube\ Statistics.csv 
+ 1002  clear
+ 1003  bash script.sh Global\ YouTube\ Statistics.csv 
+ 1013  bash script.sh Global\ YouTube\ Statistics.csv 
+ 1014  clear
+ 1015  mkdir 'United States'
+ 1016  ls
+ 1017  clear
+ 1018  bash script.sh Global\ YouTube\ Statistics.csv 
+ 1019  clear
+ 1020  bash script.sh Global\ YouTube\ Statistics.csv 
+ 1021  clear
+ 1022  bash script.sh Global\ YouTube\ Statistics.csv 
+ 1023  clear
+ 1024  bash script.sh Global\ YouTube\ Statistics.csv 
+ 1025  clear
+ 1026  bash script.sh Global\ YouTube\ Statistics.csv 
+ 1027  ! -f United\ States/Music.txt
+ 1028  bash script.sh Global\ YouTube\ Statistics.csv 
+ 1029  ls
+ 1030  bash script.sh Global\ YouTube\ Statistics.csv 
+ 1031  clear
+ 1032  ls United\ States/
+ 1033  rm United\ States/*
+ 1034  ls United\ States/
+ 1035  bash script.sh Global\ YouTube\ Statistics.csv 
+ 1036  ls United\ States/
+ 1037  vim United\ States/Comedy.txt 
+ 1038  rm United\ States/*
+ 1039  bash script.sh Global\ YouTube\ Statistics.csv 
+ 1040  ls
+ 1041  cat ws5.txt 
+ 1042  wc United\ States/Music.txt 
+ 1043  wc United\ States/Entertainment.txt 
+ 1044  wc United\ States/Gaming.txt 
+ 1045  wc United\ States/Comedy.txt 
